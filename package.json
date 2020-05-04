@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 4201",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "template":"git submodule init && git submodule update"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +23,10 @@
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-test-2020/moduloHijo1.git"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.4",
